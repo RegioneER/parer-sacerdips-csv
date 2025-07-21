@@ -9,10 +9,10 @@ Il progetto ha lo scopo di raccogliere le quattro macro-tipologie di file CSV ut
 
 Di seguito la lista dei CSV a cui si fa riferimento:
 
-- 1SACER DIPS File azioni pagine.csv: lista delle **azioni** a cui l'operatore viene abilitato all'interno della singola pagina; 
-- 2SACER DIPS File entrate menu.csv: voci del **menù** a cui fanno riferimento la macro-funzionalità;
-- 3SACER DIPS File pagine web.csv: lista delle **pagine** a cui l'operatore viene abilitato;
-- 4SACER DIPS File servizi web.csv: lista dei **servizi** (REST/SOAP) codificati per cui è possibile abilitare un specifico utente.
+- SACER DIPS File azioni pagine.csv: lista delle **azioni** a cui l'operatore viene abilitato all'interno della singola pagina; 
+- SACER DIPS File entrate menu.csv: voci del **menù** a cui fanno riferimento la macro-funzionalità;
+- SACER DIPS File pagine web.csv: lista delle **pagine** a cui l'operatore viene abilitato;
+- SACER DIPS File servizi web.csv: lista dei **servizi** (REST/SOAP) codificati per cui è possibile abilitare un specifico utente.
 
 Una volta effettuata opportunamente la modifica del singolo file CSV, secondo necessità, dovrà essere opportunamente processato attraverso l'applicazione [SIAM](https://github.com/RegioneER/parer-sacer-iam) (SACER Identity and Access Management), l'operazione è possibile solo se **amministratori** per mezzo della funzione "Gestione allineamento componenti" accessibile tra le voci di "Amministrazione sistema".
 
@@ -29,7 +29,7 @@ Non esiste alcun processo di installazione, i CSV dovranno essere caricati attra
 
 Per singolo CSV se ne riportano le caratteristiche per la sua compilazione.
 
-## 1SACER DIPS File azioni pagine.csv
+## SACER DIPS File azioni pagine.csv
 
 Il file riporta i seguenti attributi / colonne da compilare opportutamente: 
 
@@ -46,7 +46,7 @@ Il file riporta i seguenti attributi / colonne da compilare opportutamente:
 |"SACER_DIPS"|"Menu.AmministrazioneSistema"|"Amministrazione Sistema"|2|2|"Menu"|""|
 
 
-## 2SACER DIPS File entrate menu.csv
+## SACER DIPS File entrate menu.csv
 
 Il file riporta i seguenti attributi / colonne da compilare opportutamente: 
 
@@ -68,7 +68,7 @@ Il file riporta i seguenti attributi / colonne da compilare opportutamente:
 |"SACER_DIPS"|"/LUM/refertiCollegatiLUM"|"Referti collegati"|"HELP_PAGINA"|"Menu principale - Ricerche - Ricerca referti LUM"|
 
 
-## 3SACER DIPS File pagine web.csv
+## SACER DIPS File pagine web.csv
 
 Il file riporta i seguenti attributi / colonne da compilare opportutamente: 
 
@@ -86,7 +86,7 @@ Il file riporta i seguenti attributi / colonne da compilare opportutamente:
 |"SACER_DIPS"|"/amministrazioneSistema/gestioneJobRicerca"|"detail/GestioneJobForm#GestioneJobRicercaInfo/totJobDisattiviOperation"|"Filtra totale job disattivi"|
 
 
-## 4SACER DIPS File servizi web.csv
+## SACER DIPS File servizi web.csv
 
 Il file riporta i seguenti attributi / colonne da compilare opportutamente: 
 
